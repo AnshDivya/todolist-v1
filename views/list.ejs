@@ -5,7 +5,17 @@
     <title>To Do list</title>
   </head>
   <body>
-    <h1>It's <%= kindOfDay%>!</h1>
+    <h1><%= kindOfDay %></h1>
 
+    <ul>
+      <li>Buy Food</li>
+      <li>Cook Food</li>
+      <li>Eat Food</li>
+    </ul>
+
+    <form action="/" method="post">
+      <input type="text" name="task" placeholder = "Enter the task">
+      <button type="submit" name="button">Add</button>
+    </form>
   </body>
 </html>
